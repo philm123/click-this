@@ -1,0 +1,10 @@
+{
+  "title": "6. Key saved. Point your CLI at it.",
+  "look": "drop",
+  "rows": [
+    {"type": "field", "label": "Key file", "value": "~/keys/deploy-bot.json"},
+    {"type": "field", "label": "Private key", "value": "-----BEGIN PRIVATE KEY-----MIIEvQIBADANBgkq", "masked": true},
+    {"type": "field", "label": "Set this", "value": "export ORBITLY_CREDENTIALS=~/keys/deploy-bot.json"},
+    {"type": "actions", "items": [{"id": "done", "label": "Done"}]}
+  ]
+}
